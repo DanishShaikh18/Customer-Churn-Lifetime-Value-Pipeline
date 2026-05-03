@@ -21,7 +21,7 @@ print(f"      Total unique customers: {len(all_customers):,}")
 # ── Step 2: Sample 15% by customer ID ──────────────────────────────
 print("\n[2/5] Sampling 15% of customers (seed=42)...")
 
-sampled_customers = all_customers.sample(frac=0.15, random_state=42)
+sampled_customers = all_customers.sample(frac=0.17, random_state=42)
 
 print(f"      Sampled customers: {len(sampled_customers):,}")
 
