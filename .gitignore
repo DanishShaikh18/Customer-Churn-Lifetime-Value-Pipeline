@@ -1,6 +1,6 @@
 # Raw data — too large for GitHub
 data/raw/
-
+data/processed/
 # Python
 __pycache__/
 *.pyc
